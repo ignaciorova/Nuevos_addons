@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Root menu for Odoo Setup Assistant -->
+        <menuitem
+            id="menu_odoo_setup_assistant_root"
+            name="Odoo Setup Assistant"
+            sequence="10"
+            groups="base.group_system"/>
+    </data>
+</odoo>

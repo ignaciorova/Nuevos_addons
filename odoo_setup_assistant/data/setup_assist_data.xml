@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <!-- Default System Parameters for Odoo Setup Assistant -->
+
+        <record id="setup_assist_base_git_dir_param" model="ir.config_parameter">
+            <field name="key">setup.assist.base_git_dir</field>
+            <field name="value">/opt/odoo/custom_addons</field> <!-- Example default path -->
+        </record>
+
+        <record id="setup_assist_service_restart_cmd_param" model="ir.config_parameter">
+            <field name="key">setup.assist.service_restart_cmd</field>
+            <field name="value">sudo systemctl restart odoo</field> <!-- Example default command -->
+        </record>
+
+        <!-- Sudo password parameter is intentionally not set by default for security. -->
+
+    </data>
+</odoo> 

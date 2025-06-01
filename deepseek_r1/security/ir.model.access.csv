@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_deepseek_r1_deepseek_r1,deepseek_r1.deepseek_r1,model_deepseek_r1_deepseek_r1,base.group_user,1,1,1,1

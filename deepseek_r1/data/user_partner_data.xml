@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="partner_deepseek_r1" model="res.partner">
+            <field name="name">DeepSeek R1</field>
+            <field name="image_1920" type="base64" file="deepseek_r1/static/description/deepseek.png"/>
+        </record>
+            <record id="user_deepseek_r1" model="res.users">
+            <field name="login">deepseek_r1</field>
+            <field name="password">deepseek_r1</field>
+            <field name="partner_id" ref="deepseek_r1.partner_deepseek_r1"/>
+            <field name="company_id" ref="base.main_company"/>
+            <field name="company_ids" eval="[Command.link(ref('base.main_company'))]"/>
+            <field name="groups_id" eval="[Command.link(ref('base.group_user'))]"/>
+        </record>
+    </data>
+</odoo>
