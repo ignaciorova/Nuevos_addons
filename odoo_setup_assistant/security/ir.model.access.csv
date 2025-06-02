@@ -1,3 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_setup_assist_wizard,setup.assist.wizard,model_setup_assist_wizard,base.group_system,1,1,1,1
-access_setup_assist_github_repo,setup.assist.github.repo,model_setup_assist_github_repo,base.group_system,1,1,1,1
